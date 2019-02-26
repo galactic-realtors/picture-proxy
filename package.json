@@ -1,0 +1,30 @@
+{
+  "name": "descriptions-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interstellar-dynasty/proxyserver-desc.git"
+  },
+  "author": "Laura Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interstellar-dynasty/proxyserver-desc/issues"
+  },
+  "homepage": "https://github.com/interstellar-dynasty/proxyserver-desc#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.10",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "request": "^2.88.0"
+  }
+}
